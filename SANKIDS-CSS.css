@@ -7,6 +7,9 @@ body {min-width: 1170px; height: auto; margin: 0; padding: 0;   font-family: 'Co
   text-align: center;
   font-size: 40px;
 }
+a {
+  text-decoration: none;
+}
 .menu-main {
   background: none
 }
@@ -52,7 +55,6 @@ background: #ffffff;
 }
 .menu-main a {
   color: #000000;
-  text-decoration: none;
   padding-bottom: 30px;
   margin: 0 34px 0 30px;
   font-size: 16px;
@@ -118,7 +120,7 @@ z-index: 5;
   position: relative;
 }
 .item {
-  display: block;
+  display: flex;
   background-color: white;
   margin: 0;
   padding: 0;
@@ -236,18 +238,18 @@ border-radius: 140px;
   }
   }
   .contacts_conteiner {
-    background-color: #1a1a1a;
+    display: flex;
+    background-color: white;
     padding-top: 20px;
-    padding-left: 12%;
     height: 200px;
-    width: 88%;
+    width: 100%;
   }
   .contacts {
     padding-left: 12%;
     left: 10%;
   }
   .contacts p, address {
-    color: white;
+    color: black;
   }
   .tel {
     text-decoration: none;
@@ -257,6 +259,62 @@ border-radius: 140px;
     text-decoration: none;
     color: #ff00e6;
   }
+    .share {
+      left: 20%;
+      position: relative;
+      display: block;
+    }
+    .social {
+      font-size: 22px;
+      padding: 0;
+      color: black;
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+      width: 400px;
+    }
+    .social_item {
+      font-size: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 5px solid black;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      line-height: 60px;
+    }
+    .share i {
+      font-size: 30px;
+      color: black;
+    }
+    .share p {
+      font-size: 20px;
+    }
+    .vk:hover {border-color:#2d64df; box-shadow: 0 0 10px #2d64df;}
+    .twitter:hover {border-color:#00d9ff; box-shadow: 0 0 10px #00d9ff;}
+    .facebook:hover {border-color:#000fd5; box-shadow: 0 0 10px #000fd5;}
+    .pinterest:hover {border-color:#e90000; box-shadow: 0 0 10px #e90000;}
+    .linkedin:hover {border-color:#007afa; box-shadow: 0 0 10px #007afa;}
+    .envelope:hover {border-color:#dfd600; box-shadow: 0 0 10px #fff500;}
+    .vk:hover .fa-vk {
+    color: #2d64df;
+    }
+    .twitter:hover .fa-twitter {
+      color: #00d9ff;
+    }
+    .facebook:hover .fa-facebook-f {
+      color: #000fd5;
+    }
+    .pinterest:hover .fa-pinterest-p {
+      color: #e90000;
+    }
+    .linkedin:hover .fa-linkedin-in {
+      color: #007afa;
+    }
+    .envelope:hover .fa-envelope {
+      color: #dfd600;
+    }
 /*Map*/
 .mapConteiner {
   padding-top: 0px;
@@ -264,8 +322,15 @@ border-radius: 140px;
   height: 300px;
   width: auto;
 }
+/*Footer*/
 footer {
+  padding: 0;
+  margin: 0;
   height: 30px;
   width: auto;
   background-color: white;
+}
+.footer_copyright{
+  padding-top: 6px;
+  color: black;
 }
