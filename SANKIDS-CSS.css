@@ -267,7 +267,7 @@ border-radius: 140px;
     .social {
       font-size: 22px;
       padding: 0;
-      color: black;
+      color: white;
       display: flex;
       list-style: none;
       justify-content: space-between;
@@ -290,6 +290,7 @@ border-radius: 140px;
     }
     .share p {
       font-size: 20px;
+      color: black;
     }
     .vk:hover {border-color:#2d64df; box-shadow: 0 0 10px #2d64df;}
     .twitter:hover {border-color:#00d9ff; box-shadow: 0 0 10px #00d9ff;}
@@ -297,24 +298,12 @@ border-radius: 140px;
     .pinterest:hover {border-color:#e90000; box-shadow: 0 0 10px #e90000;}
     .linkedin:hover {border-color:#007afa; box-shadow: 0 0 10px #007afa;}
     .envelope:hover {border-color:#dfd600; box-shadow: 0 0 10px #fff500;}
-    .vk:hover .fa-vk {
-    color: #2d64df;
-    }
-    .twitter:hover .fa-twitter {
-      color: #00d9ff;
-    }
-    .facebook:hover .fa-facebook-f {
-      color: #000fd5;
-    }
-    .pinterest:hover .fa-pinterest-p {
-      color: #e90000;
-    }
-    .linkedin:hover .fa-linkedin-in {
-      color: #007afa;
-    }
-    .envelope:hover .fa-envelope {
-      color: #dfd600;
-    }
+    .vk:hover .fa-vk {color: #2d64df;}
+    .twitter:hover .fa-twitter {color: #00d9ff;}
+    .facebook:hover .fa-facebook-f {color: #000fd5;}
+    .pinterest:hover .fa-pinterest-p {color: #e90000;}
+    .linkedin:hover .fa-linkedin-in {color: #007afa;}
+    .envelope:hover .fa-envelope {color: #dfd600;}
 /*Map*/
 .mapConteiner {
   padding-top: 0px;
